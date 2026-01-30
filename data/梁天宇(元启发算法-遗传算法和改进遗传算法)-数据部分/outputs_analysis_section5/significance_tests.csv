@@ -1,9 +1,0 @@
-class,n_pairs,t_stat,p_ttest,w_stat,p_wilcoxon
-GreedyTrap,5,0.0,1.0,0.0,1.0
-GreedyTrap-ADV,5,0.0,1.0,0.0,1.0
-HeavyTailed,5,-0.9999999999999999,0.373900966300059,0.0,1.0
-InverseCorr,5,0.0,1.0,0.0,1.0
-StronglyCorr,5,0.0,1.0,0.0,1.0
-Uncorrelated,5,-0.9999999999999999,0.373900966300059,0.0,1.0
-Uncorrelated-Large,5,-1.6323237504950445,0.17794786718972652,0.0,0.5
-WeaklyCorr,5,0.0,1.0,0.0,1.0

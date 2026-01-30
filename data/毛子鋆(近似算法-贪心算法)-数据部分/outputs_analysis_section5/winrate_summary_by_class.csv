@@ -1,9 +1,0 @@
-class,G+Max_win_rate,GreedyDensity_win_rate,pairs
-GreedyTrap,1.0,0.0,100
-GreedyTrap-ADV,0.97,0.03,100
-HeavyTailed,1.0,0.0,100
-InverseCorr,1.0,0.0,100
-StronglyCorr,1.0,0.0,100
-Uncorrelated,1.0,0.0,100
-Uncorrelated-Large,1.0,0.0,100
-WeaklyCorr,1.0,0.0,100
