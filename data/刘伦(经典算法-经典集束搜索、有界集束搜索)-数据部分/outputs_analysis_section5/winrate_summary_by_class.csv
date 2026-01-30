@@ -1,0 +1,9 @@
+class,G+Max_win_rate,Classic_BeamSearch_win_rate,pairs
+GreedyTrap,0.99,0.01,100
+GreedyTrap-ADV,0.5,0.5,100
+HeavyTailed,0.5,0.5,100
+InverseCorr,0.5,0.5,100
+StronglyCorr,1.0,0.0,100
+Uncorrelated,0.5,0.5,100
+Uncorrelated-Large,0.5,0.5,100
+WeaklyCorr,0.5,0.5,100

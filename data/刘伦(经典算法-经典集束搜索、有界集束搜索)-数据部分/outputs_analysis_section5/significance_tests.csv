@@ -1,0 +1,9 @@
+class,n_pairs,t_stat,p_ttest,w_stat,p_wilcoxon
+GreedyTrap,100,-68.55511890220846,2.9875724269896773e-85,0.0,8.247117627495274e-18
+GreedyTrap-ADV,100,0.0,1.0,0.0,1.0
+HeavyTailed,100,0.0,1.0,0.0,1.0
+InverseCorr,100,0.0,1.0,0.0,1.0
+StronglyCorr,100,-10.019405251760645,9.923822202702016e-17,0.0,3.8665554761663035e-18
+Uncorrelated,100,0.0,1.0,0.0,1.0
+Uncorrelated-Large,100,0.0,1.0,0.0,1.0
+WeaklyCorr,100,0.0,1.0,0.0,1.0
