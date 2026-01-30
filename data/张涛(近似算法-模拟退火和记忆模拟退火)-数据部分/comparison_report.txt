@@ -1,0 +1,108 @@
+================================================================================
+模拟退火(SA) vs 记忆模拟退火(Memetic SA) 对比实验报告
+================================================================================
+
+1. 实验概览
+----------------------------------------
+  实验名称: 模拟退火(SA) vs 记忆模拟退火(Memetic SA)对比实验
+  实验时间: 2025-12-22 17:28:43
+  随机种子: 42
+  算法数量: 2
+  实例类型数量: 10
+  总测试实例数: 1000
+  输出目录: sa_memetic_comparison
+
+2. 整体性能对比
+----------------------------------------
+
+  MemeticSA_Fast:
+    平均Gap: 0.2007
+    平均运行时间: 0.0339s
+    平均价值: 1850.5
+
+  SA_Fast:
+    平均Gap: 0.2847
+    平均运行时间: 0.0092s
+    平均价值: 1599.4
+
+3. 关键发现
+----------------------------------------
+  最佳平均Gap算法: MemeticSA_Fast
+  最佳平均Gap值: 0.2007
+  最快算法: SA_Fast
+  最快算法平均时间: 0.0092
+  最慢算法: MemeticSA_Fast
+  最慢算法平均时间: 0.0339
+
+4. 各实例类型性能对比
+----------------------------------------
+
+  Uncorrelated:
+    SA平均Gap: 0.3241
+    MemeticSA平均Gap: 0.0718
+    Gap改进: 0.2524
+    Gap改进百分比: 77.8573
+    最优算法: MemeticSA_Fast
+
+  WeaklyCorr:
+    SA平均Gap: 0.3542
+    MemeticSA平均Gap: 0.2872
+    Gap改进: 0.0670
+    Gap改进百分比: 18.9267
+    最优算法: MemeticSA_Fast
+
+  StronglyCorr:
+    SA平均Gap: 0.3727
+    MemeticSA平均Gap: 0.3961
+    Gap改进: -0.0234
+    Gap改进百分比: -6.2698
+    最优算法: SA_Fast
+
+  InverseCorr:
+    SA平均Gap: 0.3925
+    MemeticSA平均Gap: 0.2642
+    Gap改进: 0.1283
+    Gap改进百分比: 32.6802
+    最优算法: MemeticSA_Fast
+
+  HeavyTailed:
+    SA平均Gap: 0.4083
+    MemeticSA平均Gap: 0.3505
+    Gap改进: 0.0577
+    Gap改进百分比: 14.1411
+    最优算法: MemeticSA_Fast
+
+  GreedyTrap:
+    SA平均Gap: 0.3526
+    MemeticSA平均Gap: 0.2970
+    Gap改进: 0.0557
+    Gap改进百分比: 15.7922
+    最优算法: MemeticSA_Fast
+
+  GreedyTrap-ADV:
+    SA平均Gap: 0.0006
+    MemeticSA平均Gap: 0.0028
+    Gap改进: -0.0022
+    Gap改进百分比: -386.9145
+    最优算法: SA_Fast
+
+  Uncorrelated-Large:
+    SA平均Gap: 0.4386
+    MemeticSA平均Gap: 0.2799
+    Gap改进: 0.1587
+    Gap改进百分比: 36.1782
+    最优算法: MemeticSA_Fast
+
+  SA-Test-Medium:
+    SA平均Gap: 0.0177
+    MemeticSA平均Gap: 0.0284
+    Gap改进: -0.0107
+    Gap改进百分比: -60.6617
+    最优算法: SA_Fast
+
+  SA-Test-Large:
+    SA平均Gap: 0.1861
+    MemeticSA平均Gap: 0.0293
+    Gap改进: 0.1568
+    Gap改进百分比: 84.2728
+    最优算法: MemeticSA_Fast
